@@ -12,7 +12,7 @@ language: zh_CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://pango.com
+url: http://ewangplay.github.io
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -102,6 +102,6 @@ stylus:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
   type: github
-  repository: git@github.com:ewangplay/pango.git
+  repository: git@github.com:ewangplay/ewangplay.github.io.git
   branch: master
   message: "ewangplay update site"
