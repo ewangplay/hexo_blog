@@ -12,38 +12,8 @@ Dzone也是个聚合型的网站，有很多zone，每天都有更新，技术�
 大辉搭建的hack news，可以自己提交issue，信息还是比较新的  
 - [teahour.fm](http://teahour.fm/)  
 专注程序员感兴趣的话题,去看看有没有你关心的话题  
-- [Android Police](http://www.androidpolice.com/)
-Android的最新资讯，英文，你懂吗？？？
 - [cnBeta](http://cnbeta.com/)
 老牌的it资讯网站
-
-###Android资源
-- [eoe](http://www.eoeandroid.com/)  
-Android开发者社区，活跃用户很多，是国内比较早的Android社区<br>
-- [Android官网](http://developer.android.com)  
-Android官网  
-- [Android Developers Blog](http://android-developers.blogspot.com/)  
-Android官网博客, 在上面可以关注Android最新的进展与最权威的博客  
-- [Home | CodePath Android Cliffnotes](http://guides.codepath.com/android)  
-Open souce about Android
-- [Android开源项目](http://www.trinea.cn/)
-我在学习android的时候，经常去参考的网站，硬货多
-- [云在千峰](http://blog.chengyunfeng.com/)
-经常去参考的网站2
-####weekly
-- [码农周刊](http://weekly.manong.io/)
-- [Android Weekly](http://androidweekly.net/)
-android每周周刊，有library，文章等，干货
-####lib库
-- [Android应用示例](http://androidniceties.tumblr.com/)
-  超炫的应用设计
-- [安卓项目动画特效](http://www.23code.com/)
-- [Android的开源库](http://android-arsenal.com/)
-国外整理的Android开源库汇总
-- [Appance Android](http://www.appance.com/category/android/)
-源代码合集，很多超赞的效果，不过是多平台的
-- [Android Design](http://mirrors.segmentfault.com/adchs/index.html)
-segmentfault提供的 Android Design
 
 ###问答网站
 - [Stack Overflow](http://stackoverflow.com/)
@@ -52,12 +22,6 @@ segmentfault提供的 Android Design
 国内的问答网站，目前还是挺活跃的
 - [德问:编程社交问答](http://www.dewen.org/)  
 - [知乎](http://www.zhihu.com/)
-
-###Java
-- [ImportNew](http://www.importnew.com/)
-专注Java & Android 技术分享
-- [并发编程网](http://ifeve.com/)
-重点就是Java的深入内容
 
 ##产品
 ###资讯

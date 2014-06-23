@@ -1,19 +1,22 @@
 title: About Me
-date: 2013-05-13 20:34:21
+date: 2014-06-23 22:45:21
 ---
-这是Yeungeek的个人站点. <br>
+这是ewangplay的个人站点。 <br>
 
-现在是一枚Android攻城师，关注移动互联网.<br>
+现在是一枚普通的程序猿，主要关注于C、C++、Linux。<br>
 
-做过一年半左右的服务端工作，最近一年转战Android.<br>
+爱生活，爱技术。<br>
+
+喜欢无谓的折腾，不喜欢循规蹈矩的生活。<br>
+
+喜欢《海贼王》，喜欢那群自由无畏的伙伴，还有那青春澎湃的梦想。<br>
+
+爱读书，但不求甚解，如此而已。<br>
+
+一个人所谓的成功，就是过自己的人生！<br>
+
 
 更多了解：<br>
-- [github](https://github.com/yeungeek) <br>
-- [twitter](https://twitter.com/yeungeek) <br>
-- [微博](http://weibo.com/springyounger) <br>
-- [stackoverflow](http://stackoverflow.com/users/943667/yeungeek) <br>
-- [segmentfault](http://segmentfault.com/u/yeungeek) <br>
-- [eoe](http://my.eoe.cn/128392)
-
-
-{% img left http://pic.yupoo.com/yeungeek/CSyolOPx/medish.jpg %}
+- [github](https://github.com/ewangplay) <br>
+- [twitter](https://twitter.com/ewangplay) <br>
+- [微博](http://weibo.com/ewangplay) <br>
