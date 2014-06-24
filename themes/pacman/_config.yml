@@ -27,7 +27,7 @@ rss: /atom.xml ## RSS address.
 #### Image
 imglogo:
   enable: true             ## display image logo true/false.
-  src: img/logo.svg        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
+  src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
 favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
 apple_icon: img/pacman.jpg ## size:114px*114px,please put image into the theme folder `/pacman/source/img`.
 
@@ -61,18 +61,18 @@ fancybox: true
 #### Author information
 author:
   google_plus: 100870093913089422348   ## eg:116338260303228776998 for https://plus.google.com/u/0/116338260303228776998
-  intro_line1: "Hello, I'm yeungeek in Huanba." ## eg: "Hello ,I'm Larry Page in Google."
+  intro_line1: "Hello, I'm wangplay in Beijing." ## eg: "Hello ,I'm Larry Page in Google."
   intro_line2: "This is my blog, if you like, enjoy it." ## eg: "This is my blog,believe it or not."
-  weibo: springyounger  ## e.g. 436062867 for http://weibo.com/436062867
-  twitter: yeungeek    ## e.g. yangjiansky for https://twitter.com/yangjiansky
-  github: yeungeek     ## e.g. A-limon for https://github.com/A-limon
-  facebook: yeungeek  ## e.g. yangjian for https://favebook.com/yangjian
+  weibo: ewangplay    ## e.g. 436062867 for http://weibo.com/436062867
+  twitter: ewangplay    ## e.g. yangjiansky for https://twitter.com/yangjiansky
+  github: ewangplay     ## e.g. A-limon for https://github.com/A-limon
+  facebook: ewangplay  ## e.g. yangjian for https://favebook.com/yangjian
   tsina: 1747569744     ## e.g. 1664838973  Your weibo ID,It will be used in share button.
 
 #### Comment
 duoshuo: 
   enable: true  ## duoshuo.com
-  short_name: yeungeek   ## duoshuo short name.
+  short_name: ewangplay   ## duoshuo short name.
 
 #### Share button
 jiathis:
