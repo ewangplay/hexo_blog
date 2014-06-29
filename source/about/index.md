@@ -13,10 +13,9 @@ date: 2014-06-23 22:45:21
 
 爱读书，但不求甚解，如此而已。<br>
 
-一个人所谓的成功，就是过自己的人生！<br>
+每个人的成功只有一个————按照自己的方式，去度过人生！<br>
 
 
 更多了解：<br>
-- [github](https://github.com/ewangplay) <br>
-- [twitter](https://twitter.com/ewangplay) <br>
 - [微博](http://weibo.com/ewangplay) <br>
+- [github](https://github.com/ewangplay) <br>
