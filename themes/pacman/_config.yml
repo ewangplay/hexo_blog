@@ -2,7 +2,7 @@
 menu:
   主页: /
   开发资源: /awesome-resources
-  About: /about
+  关于: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -16,18 +16,18 @@ widgets:
 - archive
 - tag
 - tagcloud
-- links
-- rss
+## - links
+## - rss
 ## provide six widgets:category,tag,rss,archive,tagcloud,links.
 ## modify links in `/layout/_widget/links.ejs`.
 
 #### RSS
-rss: /atom.xml ## RSS address.
+## rss: /atom.xml ## RSS address.
 
 #### Image
 imglogo:
   enable: true             ## display image logo true/false.
-  src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
+  src: img/logo.svg        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
 favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
 apple_icon: img/pacman.jpg ## size:114px*114px,please put image into the theme folder `/pacman/source/img`.
 
@@ -77,8 +77,8 @@ duoshuo:
 #### Share button
 jiathis:
   enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
-  id: 1345712588091595  ## e.g. 1501277 your jiathis ID. 
-  tsina: 1747569744 ## e.g. 1664838973 Your weibo id,It will be used in share button.
+  id:    ## e.g. 1501277 your jiathis ID. 
+  tsina: ## e.g. 1664838973 Your weibo id,It will be used in share button.
 
 #### Analytics
 google_analytics:
@@ -90,8 +90,8 @@ google_analytics:
 
 #### Custom Search
 google_cse: 
-  enable: true
-  cx: 003844658518069056947%3A0l5vg3yp5nw ## e.g. 000561263943549425496:mrzrm0gr4kg your Custom Search ID
+  enable: false
+  cx:  ## e.g. 000561263943549425496:mrzrm0gr4kg your Custom Search ID
 ## https://www.google.com/cse/ 
 ## To enable the custom search You must create a "search" folder in '/source' and a "index.md" file
 ## set the 'front-matter' as
