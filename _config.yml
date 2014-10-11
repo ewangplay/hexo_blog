@@ -3,7 +3,7 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: 随想录
+title: ewangplay's Blog
 subtitle: 思绪不定，偶尔停留
 description: Linux爱好者
 author: ewangplay
@@ -80,7 +80,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: pacman
+theme: persona-color
 exclude_generator:
 
 # Markdown
