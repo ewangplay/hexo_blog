@@ -1,7 +1,7 @@
 ##### Menu
 menu:
   主页: /
-  开发资源: /awesome-resources
+  存档: /archives
   关于: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
