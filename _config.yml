@@ -4,8 +4,8 @@
 
 # Site
 title: ewangplay's Blog
-subtitle: 思绪不定，偶尔停留
-description: Linux爱好者
+subtitle: 一个小程序员的点滴思绪
+description: 
 author: ewangplay
 email: ewangplay@gmail.com
 language: zh_CN
@@ -80,19 +80,8 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: persona-color
+theme: modernist
 exclude_generator:
-
-# Markdown
-## https://github.com/chjj/marked
-markdown:
-  gfm: true
-  pedantic: false
-  sanitize: false
-  tables: true
-  breaks: true
-  smartLists: true
-  smartypants: true
 
 # Stylus
 stylus:
