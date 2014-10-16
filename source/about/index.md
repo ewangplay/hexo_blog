@@ -1,21 +1,31 @@
 title: About Me
 date: 2014-06-23 22:45:21
 ---
-这是ewangplay的个人站点。 <br>
+一枚80年的小小程序员，爱技术，更爱生活。
 
-现在是一枚普通的程序猿，主要关注于C、C++、Linux。<br>
+### 技术领域：
+1. C/C++ Programming Language;
+2. Perl, Shell Programming Language;
+3. Golang Programming Language;
+4. windows/linux/aix/solaris os system;
+5. tcp/ip protocal statck, networking programming;
+6. http/https/ssl application layer protocol;
+7. netfilter/iptabes linux firewall;
+8. forward/Reverse proxy tech;
 
-爱生活，爱技术。<br>
+### 喜爱事物：
+1. Reading;
+2. Running;
+3. Swimming;
+4. climbing;
+5. one piece;
 
-喜欢无谓的折腾，不喜欢循规蹈矩的生活。<br>
+### 价值观念
+1. freedowm;
+2. the true;
+3. the good;
+4. the beautiful;
 
-喜欢《海贼王》，喜欢那群自由无畏的伙伴，还有那青春澎湃的梦想。<br>
-
-爱读书，但不求甚解，如此而已。<br>
-
-每个人的成功只有一个————按照自己的方式，去度过人生！<br>
-
-
-更多了解：<br>
-- [微博](http://weibo.com/ewangplay) <br>
-- [github](https://github.com/ewangplay) <br>
+### 联系方式
+1. Email: ewangplay@gmail.com
+2. Weibo: [ewangplay](http://weibo.com/ewangplay)
