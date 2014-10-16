@@ -11,7 +11,7 @@ date: 2014-06-23 22:45:21
 5. Tcp/ip/http/https/ssl protocal;
 6. Networking programming;
 7. Netfilter/iptabes linux firewall;
-8. Forward/Reverse proxy technolory;
+8. Forward/Reverse proxy technology;
 
 ### 喜爱事物：
 1. Reading;
@@ -21,7 +21,7 @@ date: 2014-06-23 22:45:21
 5. One piece;
 
 ### 价值观念
-1. The freedowm;
+1. The freedom;
 2. The true;
 3. The good;
 4. The beautiful;
