@@ -1,4 +1,4 @@
-title: 为什么对于thrift不建议使用长连接（针对Go语言版本）
+title: 为什么对于thrift不建议使用长连接
 date: 2015-02-10 11:27:43
 tags: thrift, golang
 ---
@@ -70,9 +70,9 @@ tags: thrift, golang
             IsOpen() bool
         }
 
-Transport层实际上提供了对网络Socket进行读/写的一个抽象。
+    Transport层实际上提供了对网络Socket进行读/写的一个抽象。
 
-对于Server端而言，在基础的Transport抽象层之上，又提供了一个针对服务端的抽象层：TServerTransport
+    对于Server端而言，在基础的Transport抽象层之上，又提供了一个针对服务端的抽象层：TServerTransport
 
         type TServerTransport interface {
             Listen() error
@@ -87,7 +87,7 @@ Transport层实际上提供了对网络Socket进行读/写的一个抽象。
             Interrupt() error
         }
 
-下面我们看到的TServerSocket实现，实际上就是对这个interface的实现。
+    下面我们看到的TServerSocket实现，实际上就是对这个interface的实现。
 
         type TServerSocket struct {
             listener      net.Listener
@@ -235,7 +235,7 @@ Transport层实际上提供了对网络Socket进行读/写的一个抽象。
             Transport() TTransport
         }
 
-TProtocol层实际上提供了对传输的各种数据类型的一个编码/解码过程的封装，相当于对数据的序列化和反序列化过程。提供的协议格式有多种：json, xml, 纯文本，压缩二进制等。
+    TProtocol层实际上提供了对传输的各种数据类型的一个编码/解码过程的封装，相当于对数据的序列化和反序列化过程。提供的协议格式有多种：json, xml, 纯文本，压缩二进制等。
 
 3. 创建一个自定义的跟业务相关的TProcessor对象
 
@@ -243,9 +243,9 @@ TProtocol层实际上提供了对传输的各种数据类型的一个编码/解�
             Process(in, out TProtocol) (bool, TException)
         }
 
-TProcessor层实际上定义了一个处理框架，从Input TProtocol对象读取数据，委托给服务开发者实际编写的业务接口进行处理，然后把处理后的结果输出到Output TProtocol对象。Input TProtocol对象中的数据代表了服务API调用者传递过来的调用信息（一般而言就是调用API的名称和对应的参数），而输出到Output TProtocol对象的数据代表了服务API经过内部处理后返回的结果数据。
+    TProcessor层实际上定义了一个处理框架，从Input TProtocol对象读取数据，委托给服务开发者实际编写的业务接口进行处理，然后把处理后的结果输出到Output TProtocol对象。Input TProtocol对象中的数据代表了服务API调用者传递过来的调用信息（一般而言就是调用API的名称和对应的参数），而输出到Output TProtocol对象的数据代表了服务API经过内部处理后返回的结果数据。
 
-对于thrift框架的使用者来说，实现自定义的TProcessor对象接口，就是要全部关注的内容，其它的通讯细节都被thrift封装了起来，对开发者来说是透明的。
+    对于thrift框架的使用者来说，实现自定义的TProcessor对象接口，就是要全部关注的内容，其它的通讯细节都被thrift封装了起来，对开发者来说是透明的。
 
 4. 创建一个Server对象把上面的对象模型整合到一起，进入工作流程；
 
@@ -254,7 +254,7 @@ TProcessor层实际上定义了一个处理框架，从Input TProtocol对象读�
 + 基于Input/Output TProtocol对象创建一个业务相关的TProcessor对象
 + 等待incomming的连接请求，并把传递给TProcessor对象进行处理
 
-我们看一下实际的源码流程：
+    我们看一下实际的源码流程：
 
         func (p *TSimpleServer) Listen() error {
             return p.serverTransport.Listen()
