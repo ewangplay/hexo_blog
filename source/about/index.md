@@ -1,31 +1,25 @@
 title: About Me
 date: 2014-06-23 22:45:21
 ---
-一枚80年的小小程序员，爱技术，更爱生活。
 
-### 技术领域：
-1. C/C++ Programming Language;
-2. Perl, Shell Programming Language;
-3. Go Programming Language;
-4. Windows/Linux/Aix/Solaris OS system;
-5. Tcp/ip/http/https/ssl protocal;
-6. Networking programming;
-7. Netfilter/iptabes linux firewall;
-8. Forward/Reverse proxy technology;
+### 王晓辉
 
-### 喜爱事物：
-1. Reading;
-2. Running;
-3. Swimming;
-4. Climbing;
-5. One piece;
+程序员、IT培训师、敏捷开发咨询师。
 
-### 价值观念
-1. The freedom;
-2. The true;
-3. The good;
-4. The beautiful;
+2003年毕业于信阳师范学院计算机科学与技术专业。毕业后当过两年的高中计算机老师，后辞职来北京从事专业的程序开发工作，至今已10年。先后在私企、外企、创业公司等各色软件公司里做研发工作。
+
+2003年9月至2006年2月，在河南宝丰一高任计算机老师。
+
+2006年3月至2009年4月，入职北京卡斯特信息技术有限公司，成为专职的软件开发工程师，主要参与自然语言处理项目KNLP的设计、开发和测试工作。
+
+2009年5月至2011年3月，入职亿阳信通股份有限公司，任高级软件开发工程师，主要负责联通、移动网关项目的升级改造工作。
+
+2011年3月至2014年8月，入职吉大正元信息技术股份有限公司北京分公司，任系统架构师，主要负责身份认证网关G3000产品的架构设计和研发工作。
+
+2014年10月至2016年5月，入职北京九枝兰信息技术有限公司，任系统架构师和研发总监，主要负责一站式营销平台MarketingOS SaaS的设计研发工作。
+
+目前暂时不在任何机构内任职，自由职业者一枚，专注于IT技能培训、自我成长和个人效能提升等领域。
 
 ### 联系方式
 1. Email: ewangplay@gmail.com
-2. Weibo: [ewangplay](http://weibo.com/ewangplay)
+2. Weibo: [@ewangplay](http://weibo.com/ewangplay)
