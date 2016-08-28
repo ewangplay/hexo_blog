@@ -16,16 +16,16 @@ Github Pages不但可以让用户免费搭建个人博客，而且还提供了�
 按照网站的域名注册流程一步步进行就可以了，关键是要想好自己注册的域名是什么，是com、net、cn这一类的，还是别的类型，不同的类型价格都是不一样的。
 
 我选择了注册com类型的，年费49元，我也比较了另外两家，价格也差不多这样。
-![屏幕快照 2016-08-28 上午11.35.12.png](http://ww2.sinaimg.cn/large/006y8lVajw1f79cufajkwj30sc0bemyw.jpg)
+![域名申请成功](http://ww2.sinaimg.cn/large/006y8lVajw1f79cufajkwj30sc0bemyw.jpg)
 
 在国内注册的域名，还要进行实名认证，按照流程上传身份信息认证就行了。认证成功之前，申请的域名状态是待审核，页面上说待审核的域名还不能使用，但根据我实际的经验，进行完下面的域名绑定配置后，就可以直接使用了。
 
 ## 域名绑定
 在DNSPod上注册号域名之后，就可以在域名管理页进行配置，绑定Github的二级域名了。
 
-![17:01:52.jpg](http://ww4.sinaimg.cn/large/006y8lVajw1f79khouudlj30mi06o0tc.jpg)
+![域名解析配置](http://ww4.sinaimg.cn/large/006y8lVajw1f79khouudlj30mi06o0tc.jpg)
 
-其中NS记录是DNSPod默认的绑定，不要动就了。
+其中NS记录是DNSPod默认的绑定，不要动就行了。
 
 在这个域名解析的配置页面，一般有两种域名绑定方式：
 
@@ -33,9 +33,9 @@ Github Pages不但可以让用户免费搭建个人博客，而且还提供了�
 
 * CNAME记录类型：绑定一个域名，比如Github提供的二级域名，就可以使用这种方式。
 
-在说一下主机记录类型，默认是@，访问智能通过domain.com访问，如果是www，那么就可以通过www.domain.com来访问了，所以一般是添加两条记录，一个是默认的@，第二个是www类型的。
+再说一下主机记录类型，默认是@，访问只能通过domain.com访问，如果是www，那么就可以通过www.domain.com来访问了，所以一般是添加两条记录，一个是默认的@，第二个是www类型的。
 
-配置完成的样子就如上图，添加了两条CNAME的记录，主机记录一个是@，一个是www。这样DNSPod这边的配置就完成了。
+配置完成的样子就如上图，添加了两条CNAME的记录，这样DNSPod这边的配置就完成了。
 
 下面是Github Pages相关的配置，要想Github帮你解析，还需要在项目的根目录新建一个CNAME文件，文件内容很简单，你申请的什么域名，里面就写什么内容。比如我的CNAME文件内容就是：
 
@@ -45,6 +45,6 @@ ewangplay.com
 
 设置完之后，打开项目的Settings页面，如果看到如下的信息，说明已经绑定成功了。
 
-![屏幕快照 2016-08-28 下午5.13.37.png](http://ww4.sinaimg.cn/large/006y8lVajw1f79kuqbmddj30or03wwfb.jpg)
+![Github Pages绑定域名信息](http://ww4.sinaimg.cn/large/006y8lVajw1f79kuqbmddj30or03wwfb.jpg)
 
-至此，所有的流程都已OK。现在打开浏览器，试一下新申请的域名，看看是不是直接打开你的个人博客。
+至此，所有的流程都已OK。现在打开浏览器，试一下新申请的域名，看看是不是直接打开了你的个人博客。
