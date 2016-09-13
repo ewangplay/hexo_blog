@@ -109,6 +109,7 @@ while ($elem = each($employees))
 {
     echo $elem['key'] . " - " . $elem['value'] . "<br />";
 }
+```
 
 #### list
 
@@ -259,3 +260,123 @@ function compare($x, $y) {
 
 ## 从文件中加载数组
 
+如果文件中存储的是结构化的数据，比如订单数据（通常这种结构化的数据存储在关系型数据库中），那么直接把这类数据加载到数组中再进行处理就非常方便，我们可以使用`file`和`explode`这两个函数结合来做到处理文件中的结构化数据。
+
+`file`函数的原型: `array file ( string $filename [, int $flags = 0 [, resource $context ]] )`
+`explode`函数的原型：`array explode ( string $delimiter , string $string [, int $limit = PHP_INT_MAX ] )`
+
+## 其它关于数组的操作
+
+### 数组内的导航
+
+在PHP中，创建的数组维护了一个指针——指向当前的元素，类似于C语言中的链表。通过操作这个指针可以随意的遍历数组元素。
+
+当创建了一个新的数组时，当前指针指向数组的第一个元素，使用`current()`函数可以返回当前指针指向的元素。
+
+使用`next()`和`each()`函数可以让当前指针向前移动，它们的区别在于：`next()`先向前移动指针，然后返回指针指向的新元素；`each()`是先返回当前指针指向的元素，然后再向前移动指针。
+
+当指针移动到数组的中间位置时，你可以使用`reset()`或者`end()`把当前指针重置到数组的开头（指向第一个元素）或结尾(指向最后一个元素)，同时会返回第一个元素或最后一个元素。
+
+如果希望反向遍历一个数组，就可以先使用`end()`让当前指针指向最后一个元素，然后使用`prev()`函数来向前遍历。`prev()`函数跟`next()`函数相对应，它把当前指针向前移动，然后返回新的元素。
+
+下面我们看一个反向遍历数组的例子：
+
+```
+$array = array(1, 2, 3);
+$value = end($array);
+while ($value) {
+    echo "$value\n";
+    $value = prev($array);
+}
+```
+
+### 针对数组每一个元素调用处理函数
+
+通常，我们会遍历一个数组，对每一个数组元素进行操作或修改。遍历一个数组有很多方法：`for`、`while`、`each()`等等，这里介绍一个更加简洁高效的方式: `array_walk()`，它的原型如下：
+
+`bool array_walk ( array &$array , callable $callback [, mixed $userdata = NULL ] )`
+
+`array_walk()`接受一个自定义函数，用来对数组的每一个元素进行处理操作。这个自定义函数的原型大概样子如下：
+
+`yourfunction(value, key, userdata)`
+
+第一个参数是数组元素的值，第二个参数是数组元素的Key，第三个参数是在`array_walk()`调用中指定的第三个参数：用户数据。
+
+下面是一个例子：
+
+```
+<?php
+$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
+
+function test_alter(&$item1, $key, $prefix)
+{
+    $item1 = "$prefix: $item1";
+}
+
+function test_print($item2, $key)
+{
+    echo "$key. $item2<br />\n";
+}
+
+echo "Before ...:\n";
+array_walk($fruits, 'test_print');
+
+array_walk($fruits, 'test_alter', 'fruit');
+echo "... and after:\n";
+
+array_walk($fruits, 'test_print');
+?>
+```
+
+### 数组元素的数量统计
+
+php中，对于数组元素的数量统计，提供了三个函数：`count()`、`sizeof()`和`array_count_values()`。
+
+其中`count()`和`sizeof()`的作用完全一样，都是返回数组中元素的数量。
+
+而`array_count_values()`这个函数是对数组中的元素值进行次数统计，把一样元素的出现次数统计出来，然后返回一个关联数组。
+
+我们看一个例子就明白了：
+
+```
+<?php
+function myprint($value, $key) 
+{
+    echo "$key: $value\n";
+}
+
+$array = array(4, 5, 1, 2, 3, 1, 2, 1);
+$ac = array_count_values($array);
+array_walk($ac, 'myprint');
+?>
+```
+
+运行的结果如下：
+> 4: 1
+5: 1
+1: 3
+2: 2
+3: 1
+
+### 把一个关联数组转换成普通的变量
+
+对于关联数组，我们可以使用`extract()`函数把每一个key/value元素转换成一个普通变量，变量名是数组元素的key，变量值是数组元素的Value。
+
+`extract()`的原型是：`int extract ( array &$array [, int $flags = EXTR_OVERWRITE [, string $prefix = NULL ]] )`
+
+通过例子我们理解一下它的用法：
+
+```
+<?php
+$size = "large";
+$var_array = array("color" => "blue",
+                   "size"  => "medium",
+                   "shape" => "sphere");
+extract($var_array, EXTR_PREFIX_SAME, "wddx");
+
+echo "$color, $size, $shape, $wddx_size\n";
+
+?>
+```
+
+数组$var_array有三个key/value元素，所以通过`extract()`处理会生成三个普通变量：$color、$size、$shape，但是在前面已经定义了一个变量$size，所以会产生冲突，而`extract()`函数的第二个参数就是控制在发生冲突时如何处理的，这里使用了选项：`EXTR_PREFIX_SAME`——表示当出现冲突时通过数组产生的变量会添加前缀，前缀通过`extract()`的第三个参数指定。
