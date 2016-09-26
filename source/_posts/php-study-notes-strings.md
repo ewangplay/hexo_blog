@@ -140,5 +140,64 @@ while ($tok !== false) {
 
 ## 比较字符串
 
-## 匹配和替换字符串
+* strcmp：按字典顺序比较两个字符串，大小写敏感
+
+* strcasecmp：按字典顺序比较两个字符串，大小写不敏感
+
+* strnatcmp：按自然顺序比较两个字符串，大小写敏感
+
+* strnatcasecmp：按自然顺序比较两个字符串，大小写不敏感
+
+这几个字符串比较函数通常用于多个字符串的排序操作。它们的原型都类似如下：
+`int strcmp(string str1,string str2)`
+
+返回的比较结果规则如下：
+> 如果str1等于str2则返回0。
+如果str1大于str2则返回1。
+如果str1小于str2则返回-1。
+
+所谓字典顺序，就是按照字节的ASCII值从两个字符串的首字节开始比较，如果相等则进入下一个字节的比较，直至结束比较。所谓自然顺序，就是指按照人们的日常生活中的思维习惯进行排序，即将字符串中的数字部分按照数字大小进行比较。例如按照字节比较时“4”大于“33”，因为“4”大于“33”中的第一个字符，而按照自然排序法则“33”大于“4”。
+
+* strlen: 返回字符串的长度
+
+## 查找匹配字符串
+
+* strstr：在一个字符串中查找子字符串或字符。在PHP中，`strchr`跟`strstr`是等同的，这一点跟C语言中有点区别，要注意一下。
+
+函数原型如下：
+`string strstr(string haystack, string needle);`
+
+* strrchr：类似于`strchr`，不同的是从字符串的尾部开始匹配查找的模式串。
+
+* stristr: 类似于`strstr`，不同的是大小写不敏感。
+
+* strpos: 类似于`strstr`，不同的是`strstr`返回查找模式的子字符串，而`strpos`返回的是查找模式的位置。
+
+* strrpos: 类似于`strpos`，不同的是这个是从字符串的尾部开始查找。
+
+PHP中建议使用`strpos`替代`strstr`用来字符串中查找一个子字符串，原因是`strpos`的效率更高一些。
+
+使用`strpos`系列函数时，有一个小问题要注意，那就是当查找的子字符串不存在时，会返回FALSE，而在弱类型语言的PHP中，FALSE的值跟0是相等的，但类型不同，所以在判断返回结果时要使用`===`而不是`==`。
+
+```
+$test = "Tommoy";
+$result = strpos($test, “H”); 
+if ($result === false) {
+    echo “Not found”; 
+} else {
+    echo “Found at position ".$result; 
+}
+```
+
+## 替换字符串
+
+* str_replace：通过查找的方式替换字符串中特定的子字符串。最后一个参数`$count`是可选的，用来指定替换的最大次数。
+
+原型如下：
+`mixed str_replace(mixed needle, mixed new_needle, mixed haystack[, int &count]));`
+
+* substr_replace: 通过精确指定字符串中的位置来替换子字符串。最后一个参数`$length`是可选的，如果不指定就是替换直到末尾。
+
+原型如下：
+`string substr_replace(string string, string replacement, int start, int [length] );`
 
