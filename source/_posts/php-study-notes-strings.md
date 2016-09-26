@@ -87,6 +87,56 @@ $sql = "INSERT INTO lastnames (lastname) VALUES ('$lastname')";
 
 ## 拼装和分解字符串
 
+* explode：按照特定的分隔符对字符串进行分割，分割的元素存储在数组中返回。还可以使用额外的参数`limit`限制分割元素的数量。
+
+该函数的原型如下：
+`array explode(string separator, string input [, int limit]);`
+
+我们看一个例子，这个例子把email地址中的域名部分分离出来，然后根据域名来决定把反馈邮件发送到哪里。
+```
+$email_array = explode(‘@’, $email);
+if (strtolower($email_array[1]) == “bigcustomer.com”) { 
+    $toaddress = “bob@example.com”;
+} else {
+    $toaddress = “feedback@example.com”;
+}
+```
+
+* implode：该函数达到的效果跟`explode`相反，把一个数组元素通过特定的分隔符拼接起来。
+
+该函数的原型如下：
+`string implode ( string $glue , array $pieces )`
+`string implode ( array $pieces )`
+
+参数`$glue`用来指定拼接时的分隔符，如果没有指定，默认为空格。
+
+* join：是`implode`函数的别名。
+
+* strtok：该函数也是用来分割字符串，与`explode`函数不同的时，这个函数每次调用只分割一个元素，所以需要多次循环调用才能把一个字符串分割完毕。
+
+原型如下：
+`string strtok ( string $str , string $token )`
+`string strtok ( string $token )`
+
+第一次调用时，传入要分割的字符串`$str`，返回一个根据`$token`分割的元素，接着的调用就不需要传入原始字符串了，只需要按照第二种原型方式调用，就会依次获取后面的分割元素。如果希望开始一个新的字符串分割，那么重新调用第一种原型方式传入新的字符串即可。
+
+下面看一个使用的例子：
+```
+<?php
+$string = "This is\tan example\nstring";
+$tok = strtok($string, " \n\t");
+
+while ($tok !== false) {
+    echo "$tok\n";
+    $tok = strtok(" \n\t");
+}
+?>
+```
+
+* substr：该函数用来从一个字符串中精确的分离出来一个子字符串。
+
+原型如下：
+`string substr ( string $string , int $start [, int $length ] )`
 
 ## 比较字符串
 
