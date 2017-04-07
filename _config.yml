@@ -90,7 +90,7 @@ stylus:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repository: git@github.com:ewangplay/ewangplay.github.io.git
   branch: master
   message: "ewangplay update site"
