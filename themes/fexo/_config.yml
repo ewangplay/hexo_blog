@@ -56,11 +56,11 @@ breadcrumb:
 # 盒子
 toolbox:
   isShow: true # true|fase
-  text: 盒子
+  text: 新世界
 
 search_slogan:
   isShow: true # true|fase
-  text: Just be yourself ~
+  text: 不知所措，才是人生 ~
 
 link_slogan:
   isShow: true # true|fase
@@ -139,7 +139,7 @@ about:
   - type: me
     icon: icon-user
     text_value:
-    - "喜欢海贼王"
+    - "One Piece Fans"
     - "后端开发工程师，C / C++ / Go / Perl"
   - type: Github
     icon: icon-github
