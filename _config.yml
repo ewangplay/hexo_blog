@@ -15,9 +15,9 @@ language: zh-CN
 url: http://ewangplay.github.io
 root: /
 permalink: :year/:month/:day/:title/
-tag_dir: tags
+tag_dir: tag
 archive_dir: archives
-category_dir: categories
+category_dir: category
 code_dir: downloads/code
 
 # Directory
@@ -80,7 +80,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: pacman
+theme: fexo
 exclude_generator:
 
 # Stylus
@@ -90,7 +90,7 @@ stylus:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repository: git@github.com:ewangplay/ewangplay.github.io.git
   branch: master
   message: "ewangplay update site"
