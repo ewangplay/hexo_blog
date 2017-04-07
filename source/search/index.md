@@ -1,3 +1,5 @@
-layout: search
+---
 title: search
+layout: search
+comments: false
 ---
