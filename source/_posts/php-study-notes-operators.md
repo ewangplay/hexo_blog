@@ -1,6 +1,7 @@
 title: PHP学习笔记——操作符
 date: 2016-08-31 11:00:55
-tags: php
+tags: [学习笔记,php]
+categories: 编程语言
 ---
 
 php中的操作符分为以下几大类：

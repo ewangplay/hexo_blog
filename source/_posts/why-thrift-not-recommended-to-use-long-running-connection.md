@@ -1,6 +1,7 @@
 title: 为什么对于thrift不建议使用长连接
 date: 2015-02-10 11:27:43
-tags: thrift, golang
+tags: [Thrift,Golang]
+categories: 编程技术
 ---
 我们后端的服务采用Micro-Service的架构，按照功能切分成各种细小的服务，对于每个服务不限制编程语言，比如我们的团队成员就使用了三种编程语言——golang、python、nodejs。服务与服务之间使用了Facebook开源的thrift通讯框架来做RPC调用，灵活、简单、功能上也基本满足了需求。关于thrift的使用，可以参考[它的官网](http://thrift.apache.org/)。
 

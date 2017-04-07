@@ -1,6 +1,7 @@
 title: Github个人博客绑定独立域名
 date: 2016-08-28 16:32:55
-tags: blog
+tags: [Blog,Github]
+categories: 个人博客
 ---
 Github Pages不但可以让用户免费搭建个人博客，而且还提供了自定义的域名绑定功能。如果你是一个Coder或Geek，什么东西都喜欢自己动手，刚好你又想开始耕耘个人的博客，那么从Github Pages起步是一个不错的选择。网上有很多关于如何使用Github Pages + Hexo搭建个人博客的教程，随便找一个就可以开始啦，我当时就这么开始的。
 
