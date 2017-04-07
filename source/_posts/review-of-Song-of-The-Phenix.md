@@ -1,6 +1,7 @@
 title: 百鸟朝凤――无奈的抗争
 date: 2016-05-14 16:02:11
-tags: 影评
+tags: [影评,百鸟朝凤]
+categories: 电影
 ---
 **【版权声明：自由转载-非商用-非衍生-保持署名（[创意共享3.0许可证](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)）】**
 

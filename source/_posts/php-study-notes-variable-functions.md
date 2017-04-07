@@ -1,6 +1,7 @@
 title: PHP学习笔记——变量处理函数
 date: 2016-08-31 16:15:55
-tags: php
+tags: [学习笔记,php]
+categories: 编程语言
 ---
 
 PHP专门提供了一个用于操作和测试变量的函数库。
