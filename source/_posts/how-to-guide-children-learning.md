@@ -4,7 +4,6 @@ date: 2018-05-26 19:39:51
 tags: [教育]
 categories: 人生随笔
 ---
-![](https://upload-images.jianshu.io/upload_images/57855-c330c578971c6120.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 1. 不要对孩子讲大道理
 

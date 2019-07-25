@@ -4,7 +4,6 @@ date: 2018-05-16 19:30:00
 tags: [读书]
 categories: 人生随笔
 ---
-![](https://upload-images.jianshu.io/upload_images/57855-58b2710b84c1c866.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 经常听到这样一句话：读了很多书，为什么还过不好这一生？
 
