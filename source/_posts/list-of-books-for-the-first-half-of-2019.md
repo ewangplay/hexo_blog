@@ -7,7 +7,7 @@ categories: 读书
 
 1. 《月亮与六便士》
 
-![](http://ewangplay.github.io/images/the-moon-and-sixpence.jpg)
+![](list-of-books-for-the-first-half-of-2019/the-moon-and-sixpence.jpg)
 [豆瓣链接](https://book.douban.com/subject/26954760/)
 
 【五星推荐】
@@ -16,7 +16,7 @@ categories: 读书
 
 2. 《围城》
 
-![](http://ewangplay.github.io/images/qianzhongshu-siege.jpg)
+![](list-of-books-for-the-first-half-of-2019/qianzhongshu-siege.jpg)
 [豆瓣链接](https://book.douban.com/subject/1464989/)
 
 【五星推荐】
@@ -29,7 +29,7 @@ categories: 读书
 
 3. 《李鸿章传》
 
-![](http://ewangplay.github.io/images/liangqichao-lihongzhang.jpg)
+![](list-of-books-for-the-first-half-of-2019/liangqichao-lihongzhang.jpg)
 [豆瓣链接](https://book.douban.com/subject/1076685/)
 
 【五星推荐】
@@ -38,7 +38,7 @@ categories: 读书
 
 4. 《创造自然》
 
-![](http://ewangplay.github.io/images/invention-of-nature.jpg)
+![](list-of-books-for-the-first-half-of-2019/invention-of-nature.jpg)
 [豆瓣链接](https://book.douban.com/subject/27145016/)
 
 【五星推荐】
@@ -47,7 +47,7 @@ categories: 读书
 
 5. 《笑傲江湖》
 
-![](http://ewangplay.github.io/images/inyong-xiaoaojianghu.jpg)
+![](list-of-books-for-the-first-half-of-2019/inyong-xiaoaojianghu.jpg)
 [豆瓣链接](https://book.douban.com/subject/1002299/)
 
 【五星推荐】
@@ -56,7 +56,7 @@ categories: 读书
 
 6. 《如何学习》
 
-![](http://ewangplay.github.io/images/how-we-learn.jpg)
+![](list-of-books-for-the-first-half-of-2019/how-we-learn.jpg)
 [豆瓣链接](https://book.douban.com/subject/27081766/)
 
 【四星推荐】
@@ -74,7 +74,7 @@ categories: 读书
 
 7. 《正见》
 
-![](http://ewangplay.github.io/images/seeing-Buddha's-enlightenment.jpg)
+![](list-of-books-for-the-first-half-of-2019/seeing-Buddha's-enlightenment.jpg)
 [豆瓣链接](https://book.douban.com/subject/25902141/)
 
 【三星推荐】
@@ -84,7 +84,7 @@ categories: 读书
 
 8. 《佛陀传》（原名《故道白云》）
 
-![](http://ewangplay.github.io/images/yixingchanshi-Buddha-biography.jpg)
+![](list-of-books-for-the-first-half-of-2019/yixingchanshi-Buddha-biography.jpg)
 [豆瓣链接](https://book.douban.com/subject/25819842/)
 
 【四星推荐】

@@ -1,6 +1,6 @@
 ---
 title: 对女儿的编程启蒙（一）——引子
-date: 2019-09-11 15:33:06
+date: 2019-09-09 15:33:06
 tags: [少儿编程,scratch]
 categories: 家庭教育
 ---
@@ -49,5 +49,3 @@ categories: 家庭教育
 我打开电脑，偷偷露出了谜一般的笑容。
 
 （待续）
-
-![](http://ewangplay.github.io/images/wechat-public-account.jpg)

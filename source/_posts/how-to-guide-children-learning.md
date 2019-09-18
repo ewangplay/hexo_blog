@@ -161,5 +161,3 @@ categories: 人生随笔
     一句话，如果我们想让自己的孩子卓越，就拿出改变自己的勇气来，先让自己看得起自己，成为孩子的人生榜样，我想很多的孩子的教育问题也就迎刃而解了。
 
 以上，是自己对孩子教育问题的一些反思和总结，共勉！
-
-![](http://ewangplay.github.io/images/wechat-public-account.jpg)
