@@ -7,4 +7,4 @@ date: 2014-06-23 22:45:21
 ### 联系方式
 * Email: ewangplay@gmail.com
 * Weixin：ewangplay
-* Weibo：ewangplay
+* Weibo：[ewangplay](https://weibo.com/ewangplay)
