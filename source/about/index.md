@@ -2,7 +2,7 @@ title:
 date: 2014-06-23 22:45:21
 ---
 
-![](http://ewangplay.github.io/images/wechat-public-account.jpg)
+![](https://ewangplay.github.io/images/wechat-public-account.jpg)
 
 ### 联系方式
 * Email: ewangplay@gmail.com
