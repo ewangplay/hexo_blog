@@ -1,7 +1,7 @@
 title: PHP学习笔记——文件操作
 date: 2016-09-02 15:00:55
-tags: [学习笔记,php]
-categories: 编程语言
+tags: [php]
+categories: 编程技术
 ---
 
 ## 打开文件

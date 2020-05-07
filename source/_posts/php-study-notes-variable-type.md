@@ -1,7 +1,7 @@
 title: PHP学习笔记——变量类型
 date: 2016-08-29 9:50:55
-tags: [学习笔记,php]
-categories: 编程语言
+tags: [php]
+categories: 编程技术
 ---
 
 ## 变量类型

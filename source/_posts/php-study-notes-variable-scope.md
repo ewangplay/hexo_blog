@@ -1,7 +1,7 @@
 title: PHP学习笔记——变量作用域
 date: 2016-08-29 16:30:55
-tags: [学习笔记,php]
-categories: 编程语言
+tags: [php]
+categories: 编程技术
 ---
 
 ## 变量作用域

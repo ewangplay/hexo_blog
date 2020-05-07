@@ -1,7 +1,7 @@
 title: 末日穷途之时，我们如何选择？
 date: 2016-09-28 12:23:56
-tags: [人生感悟]
-categories: 人生随笔
+tags: [末日穷途]
+categories: 影视评论
 ---
 ![](http://ww3.sinaimg.cn/large/72f96cbajw1f896zlfelqj215t0tsdhg.jpg)
 

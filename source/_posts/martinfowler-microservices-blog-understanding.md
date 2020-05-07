@@ -1,7 +1,7 @@
 title: 老马的微服务特性解读
 date: 2016-03-16 20:00:00
 tags: [微服务]
-categories: 服务架构
+categories: 架构设计
 ---
 前不久伍斌(Ben)前辈在其微信公众号`北京设计模式学习组`上发布了一篇文章：[“微服务”博客中译完整版](http://mp.weixin.qq.com/s?__biz=MjM5MjEwNTEzOQ==&mid=401500724&idx=1&sn=4e42fa2ffcd5732ae044fe6a387a1cc3#rd)，并分享到了朋友圈，我看到后就拜读了一下。
 

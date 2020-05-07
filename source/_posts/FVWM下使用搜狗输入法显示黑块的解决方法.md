@@ -1,7 +1,7 @@
 title: FVWM下使用搜狗输入法显示黑块的解决方法
 date: 2014-06-29 21:44:06
 tags: [FVWM]
-categories: Linux
+categories: 技术记录
 ---
 ## 问题
 前几天在浏览[UbuntuKylin](http://www.ubuntukylin.com/)时发现搜狗输入法发布了for Linux版本，刚好我Ubuntu 14.04上使用的ibus sunpinyin输入法有些问题，就决定换成搜狗输入法。<br>

@@ -1,7 +1,7 @@
 title: PHP学习笔记——访问表单变量
 date: 2016-08-28 10:10:55
-tags: [学习笔记,php]
-categories: 编程语言
+tags: [php]
+categories: 编程技术
 ---
 在使用PHP开发Web应用时，最常见的需求就是使用一个表单（Form）收集用户提交的数据。在PHP中，通过Form表单获取用户提交的数据非常的容易，但是在细节上也存在细微的差别，这一点依赖于你使用的PHP的版本和在php.ini中一些配置。
 

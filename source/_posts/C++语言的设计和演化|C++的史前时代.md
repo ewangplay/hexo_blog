@@ -1,7 +1,7 @@
 title: C++语言的设计和演化——C++的史前时代
 date: 2017-02-15 11:43:11
 tags: [C++]
-categories: 编程语言
+categories: 编程技术
 ---
 ## 1. Simula语言
 - C++语言的诞生诸多借鉴自当年的Simula语言

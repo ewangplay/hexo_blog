@@ -1,7 +1,7 @@
 ---
 title: 如何学习（三）——遗忘是好是坏？
 date: 2019-10-16 18:16:51
-tags: [学习,如何学习]
+tags: [如何学习]
 categories: 认知科学
 ---
 先看一段[视频](https://v.qq.com/x/page/m037411czc7.html)。
